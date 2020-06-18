@@ -11,3 +11,9 @@
     color: gray;
     text-decoration: line-through;
 }
+
+#editor-wrapper div.ProseMirror .checkbox-item::before {
+    border-radius: 50% !important;
+    height: 20px !important;
+    width: 20px !important;
+}
