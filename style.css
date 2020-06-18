@@ -1,0 +1,13 @@
+.ProseMirror {
+    font-size: 1.3rem !important;
+}
+
+#editor-wrapper div.ProseMirror .checkbox-item::before {
+    margin-left: 10px !important;
+    top: 10px;
+}
+
+.checkbox-item.checked {
+    color: gray;
+    text-decoration: line-through;
+}
