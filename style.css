@@ -27,3 +27,7 @@
   font-family: 'arfont';
   src: URL('https://github.com/themedleb/My-Nextcloud/raw/master/ar-font.ttf') format('truetype');
 }
+
+#filelist-header #rich-workspace {
+  display: none
+}
