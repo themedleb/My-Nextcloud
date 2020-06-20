@@ -17,3 +17,13 @@
     height: 20px !important;
     width: 20px !important;
 }
+
+#editor-wrapper div.ProseMirror p {
+    cursor: text;
+    font-family: arfont;
+}
+
+@font-face {
+  font-family: 'arfont';
+  src: URL('https://github.com/themedleb/My-Nextcloud/raw/master/ar-font.ttf') format('truetype');
+}
