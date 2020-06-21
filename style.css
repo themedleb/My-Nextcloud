@@ -16,11 +16,13 @@
     border-radius: 50% !important;
     height: 20px !important;
     width: 20px !important;
+    flex-shrink: 0;
 }
 
 #editor-wrapper div.ProseMirror p {
     cursor: text;
     font-family: arfont;
+    transform: translateY(6px);
 }
 
 @font-face {
