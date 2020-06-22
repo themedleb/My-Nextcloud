@@ -3,7 +3,7 @@
 }
 
 #editor-wrapper div.ProseMirror .checkbox-item::before {
-    margin-left: 10px !important;
+    margin-right: 10px !important;
     top: 10px;
 }
 
@@ -21,15 +21,4 @@
 
 #editor-wrapper div.ProseMirror p {
     cursor: text;
-    font-family: arfont;
-    transform: translateY(6px);
-}
-
-@font-face {
-  font-family: 'arfont';
-  src: URL('https://github.com/themedleb/My-Nextcloud/raw/master/ar-font.ttf') format('truetype');
-}
-
-#filelist-header #rich-workspace {
-  display: none
 }
